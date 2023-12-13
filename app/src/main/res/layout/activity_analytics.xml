@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalyticsActivity">
+
+
+    <TextView
+        android:id="@+id/textView_4"
+        android:layout_width="137dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Forwarded To Live Agent : 0"
+        android:textColor="#FCF10A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_3"
+        android:layout_width="137dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Avg Call Time: 1 MIN 30 SEC"
+        android:textColor="#FC0A0A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="137dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="264dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Missed Calls : 0"
+        android:textColor="#24FC0A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="137dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Number of Calls : 10"
+        android:textColor="#24FC0A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/overview"
+        android:layout_width="70dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="173dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Overview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

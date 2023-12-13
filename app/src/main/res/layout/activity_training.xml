@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainingActivity">
+
+    <TextView
+        android:id="@+id/live"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="432dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Correct"
+        android:textColor="#08FF00"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/take_over"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="84dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Wrong"
+        android:textColor="#FF1B00"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_2" />
+
+    <TextView
+        android:id="@+id/textView_1"
+        android:layout_width="77dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="User"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_2"
+        android:layout_width="78dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/circle_shape"
+        android:gravity="center"
+        android:text="Ai"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="191dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/rectangle_shape"
+        android:text="Hello, do you guys do a birthday parties"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="191dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/rectangle_shape"
+        android:text="Here is a list of bird patties"
+        app:layout_constraintEnd_toStartOf="@+id/textView_2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="80dp"
+        android:text="Upload Data"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/live" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="75dp"
+        android:text="Schedule"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/take_over" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
